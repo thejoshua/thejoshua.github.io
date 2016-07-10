@@ -17,12 +17,18 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
-          </li>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li>
             {% include icon-twitter.html username=site.twitter_username %}
+          {% endif %}
+
+          {% if site.facebook_username %}
+            {% include icon-facebook.html username=site.facebook_username %}
+          {% endif %}
+
+          {% if site.tumblr_username %}
+            {% include icon-tumblr.html username=site.tumblr_username %}
           </li>
           {% endif %}
         </ul>
