@@ -1,0 +1,3 @@
+[submodule "newpost"]
+	path = newpost
+	url = https://github.com/thejoshua/newpost
