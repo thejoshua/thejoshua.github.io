@@ -27,6 +27,22 @@
             {% include icon-facebook.html username=site.facebook_username %}
           {% endif %}
 
+          {% if site.psn_username %}
+            {% include icon-psn.html username=site.psn_username %}
+          {% endif %}
+
+          {% if site.xbox_username %}
+            {% include icon-xbox.html username=site.xbox_username %}
+          {% endif %}
+
+          {% if site.steam_username %}
+            {% include icon-steam.html username=site.steam_username %}
+          {% endif %}
+
+          {% if site.youtube_username %}
+            {% include icon-youtube.html username=site.youtube_username %}
+          {% endif %}
+
           {% if site.tumblr_username %}
             {% include icon-tumblr.html username=site.tumblr_username %}
           </li>
